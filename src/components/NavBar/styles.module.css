@@ -1,0 +1,19 @@
+
+.Navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: black;
+} 
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.menuNav{
+    color: black;
+    padding: 16px;
+}
