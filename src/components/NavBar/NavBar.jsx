@@ -1,7 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import styles from './styles.module.css';
+import styles from './navbar.module.css';
+import CardWidget from '../CartWidget/cartwidget';
+
+
 
 const NavBar = () =>   {
   return (
@@ -12,9 +15,9 @@ const NavBar = () =>   {
                 <Nav className={styles.nav}>
                     <Nav.Link className={styles.menuNav} href="#home">INICIO</Nav.Link>
                     <Nav.Link className={styles.menuNav} href="#link">PRODUCTOS</Nav.Link>
-                    <Nav.Link className={styles.menuNav} href="#home">CARRITO</Nav.Link>
                     <Nav.Link className={styles.menuNav} href="#link">NOSOTROS</Nav.Link>
                     <Nav.Link className={styles.menuNav} href="#home">CONTACTO</Nav.Link>
+                    <CardWidget/>
                 </Nav>
             </Navbar.Collapse>
       </Container>

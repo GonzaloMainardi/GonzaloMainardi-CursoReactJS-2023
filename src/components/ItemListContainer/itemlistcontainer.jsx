@@ -1,10 +1,9 @@
+const ItemListContainer = ({ bienvenida }) => {
+  return (
+    <div>
+      <h1>{bienvenida}</h1>
+    </div>
+  );
+};
 
-const ItemListContainer = ({ mensaje }) => {
-    return (
-      <div>
-        <h1>{mensaje}</h1>
-      </div>
-    );
-  };
-  
-  export default ItemListContainer;
+export default ItemListContainer;
