@@ -17,3 +17,8 @@
     color: black;
     padding: 16px;
 }
+
+.CardWidget {
+    background-color: red;
+    color: red;
+}
